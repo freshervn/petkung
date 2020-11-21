@@ -56,6 +56,9 @@ article section h3{
    padding: 1em;
    font-style: italic;
 }
+article section .note{
+    font-size: 24px;
+}
 article section img{
     max-width: 100%;
 }
@@ -73,11 +76,13 @@ article section blockquote{
 article section .row{
     padding-bottom: 1.5em;
 }
+article section aside {
+    margin-top: 2em;
+}
 article section aside div{
     border: 1px solid #d5d5d5;
     transition: 0.3 ease-in-out;
     padding: 15px;
-
 }
 article section aside div:hover{
     box-shadow: 1px 1px 1px 1px #d5d5d5, -1px -1px 1px 1px #d5d5d5, 1px -1px 1px 1px #d5d5d5, -1px 1px 1px 1px #d5d5d5;
