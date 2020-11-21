@@ -1,0 +1,110 @@
+:root{
+    --theme-color-1:#ffb606;
+    --theme-color-2:#38b7fe;
+}
+body{
+}
+main header{
+    background-color: var(--theme-color-1);
+    height: auto;
+}
+main header h1{
+    font-size: 50px;
+    padding: 1em;
+    color: white;
+    word-spacing: -1px;
+    letter-spacing: -0.4px;
+    font-weight: 200;
+    margin: 0;
+}
+main address .link-list dt{
+    display: inline-block;
+}
+main address .link-list dt::after{
+    content: '>';
+    color: #aab2b2;
+}
+main address .link-list dt a{
+    color: #aab2b2;
+    font-weight: 400;
+    text-decoration: none;
+}
+main address .link-list dt::first-letter{
+    text-transform: uppercase;
+}
+
+/* article */
+article{
+    padding-bottom: 2em;
+}
+article:nth-child(even){
+    background: whitesmoke;
+}
+article section h2{
+    color: var(--theme-color-2);
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    font-style: italic;
+}
+article section h3{
+   color: var(--theme-color-1);
+   font-family: Montserrat;
+   font-weight: bold;
+   text-align: center;
+   padding: 1em;
+   font-style: italic;
+}
+article section img{
+    max-width: 100%;
+}
+article section blockquote{
+    border-left: 2px solid var(--theme-color-1);
+    font-size: 18px;
+    padding: 1em;
+    position: relative;
+    margin: 0.5em 0;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    color: #273044;
+}
+article section .row{
+    padding-bottom: 1.5em;
+}
+article section aside div{
+    border: 1px solid #d5d5d5;
+    transition: 0.3 ease-in-out;
+    padding: 15px;
+
+}
+article section aside div:hover{
+    box-shadow: 1px 1px 1px 1px #d5d5d5, -1px -1px 1px 1px #d5d5d5, 1px -1px 1px 1px #d5d5d5, -1px 1px 1px 1px #d5d5d5;
+    font-weight: 500;
+}
+article section button{
+    text-align: center;
+    background-color: var(--theme-color-2);
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 0 #006394;
+    align-self: center;
+    position: relative;left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding:1em 3em;
+    border-radius: 5px;
+}
+article section button:hover{
+    top: 3px;
+    box-shadow: 0 2px 0 #006394;    
+    transform: translate(-50%,3px);
+}
+
+article section  iframe{
+    width: 100%;
+}
+
